@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
 body {
-  background-color: red;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+}
+
+.jr-dialog-headline {
+    background-color: #2d0f4b;
+    color: whitesmoke;
+}
+
+.jr-btn-success {
+    background-color: #f6ff7f !important;
+    color: #2d0f4b !important;
+    font-weight: bold;
+    padding: .3rem 1.2rem;
+}
+
+/* sectiuni */
+.minimizable {
+    background-color: #2d0f4b;
+    box-shadow: 0 -2px 10px rgb(125 125 125);
+    width: 40%;
+}
+/* titlul sectiunii */
+.sectionName {
+    font-size: 1.1rem !important;
+    border: none !important;
+    border-bottom: 1px solid whitesmoke !important;
+    border-radius: 0 !important;
+    margin-bottom: 1rem !important;
+}
+
+/* textboxurile */
+.textbox {
+    background-color: whitesmoke;
+    color: #191919;
+    font-family: inherit;
+}
+
+/* checkboxuri */
+.jr-dialog-form-element label::before {
+    background-color: #eaeaea17 !important;
 }
