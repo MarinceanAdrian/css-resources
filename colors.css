@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
 
 body {
+<<<<<<< HEAD
     font-family: 'Montserrat', sans-serif;
     background-color: rebeccapurple;
     color: whitesmoke;
@@ -44,3 +45,8 @@ body {
 .jr-dialog-form-element label::before {
     background-color: #eaeaea17 !important;
 }
+=======
+  background-color: red;
+  color: blue;
+}
+>>>>>>> d2d9ec7d8abb98910f55b061337b28c6577e5e2f
